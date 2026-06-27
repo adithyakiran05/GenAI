@@ -35,5 +35,5 @@ app.include_router(full_analysis_router)
 @app.get("/")
 def root():
     return {
-        "message": "VentureLens API Running"
+        "message": "VentureLens API Running and ready"
     }
