@@ -15,7 +15,8 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="VentureLens AI",
-    version="1.0.0"
+    version="1.0.0",
+    docs_url="/api-docs"
 )
 
 app.add_middleware(
